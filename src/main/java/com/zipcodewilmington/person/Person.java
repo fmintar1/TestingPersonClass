@@ -8,21 +8,21 @@ public class Person {
     private int age;
 
     public Person() {
-        setGetName("");
-        setGetAge(Integer.MAX_VALUE);
+        setName("");
+        setAge(Integer.MAX_VALUE);
     }
 
     public Person(int age) {
-        setGetAge(age);
+        setAge(age);
     }
 
     public Person(String name) {
-        setGetName(name);
+        setName(name);
     }
 
     public Person(String name, int age) {
-        setGetName(name);
-        setGetAge(age);
+        setName(name);
+        setAge(age);
     }
 
     public void setName(String name) {
@@ -38,16 +38,6 @@ public class Person {
     }
 
     public Integer getAge() {
-        return age;
-    }
-
-    public String setGetName(String name) {
-        this.name = name;
-        return name;
-    }
-
-    public Integer setGetAge(int age) {
-        this.age = age;
         return age;
     }
 }
